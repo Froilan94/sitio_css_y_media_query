@@ -1,0 +1,22 @@
+    :root {
+      --color_listas: #ff0000; /* Variable global */
+    }
+
+    ul {
+      background-color: var(--color_listas);
+      padding: 10px;
+      list-style: none;
+    }
+
+    li {
+      color: white;
+      padding: 5px;
+    }
+
+    /* Ejemplo de Media Query */
+    @media (max-width: 600px) {
+      :root {
+        --color_listas: #0000ff; /* Cambia la variable en pantallas pequeñas */
+      }
+    }
+
